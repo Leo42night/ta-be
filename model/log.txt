@@ -1,0 +1,2 @@
+cf_model_v2.keras - versi tanpa decentralization python lambda layer
+  - v3: registered custom class

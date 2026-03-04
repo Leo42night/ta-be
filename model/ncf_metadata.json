@@ -1,0 +1,17 @@
+{
+    "n_users": 1348,
+    "n_items": 211,
+    "best_params": {
+        "batch_size": 32,
+        "epochs": 5,
+        "model__embed_dim": 16,
+        "model__hidden": [
+            64,
+            32,
+            16
+        ],
+        "model__lr": 0.001
+    },
+    "model_type": "Neural Collaborative Filtering (NCF)",
+    "framework": "TensorFlow / Keras"
+}

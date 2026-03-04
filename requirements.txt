@@ -1,0 +1,35 @@
+# Core ML
+tensorflow==2.20.0
+keras==3.13.0
+numpy==2.4.0
+pandas==2.3.3
+scikit-learn
+matplotlib
+h5py==3.15.1
+
+# Model utilities
+tensorboard==2.20.0
+protobuf==6.33.2
+
+# API (Model Serving)
+fastapi==0.128.0
+uvicorn==0.40.0
+starlette==0.50.0
+pydantic==2.12.5
+pydantic-settings==2.12.0
+python-multipart==0.0.21
+
+# Database (if used)
+SQLAlchemy==2.0.46
+PyMySQL==1.1.2
+
+# Environment & Config
+python-dotenv==1.2.1
+
+# HTTP (if calling external APIs)
+requests==2.32.5
+
+# Notebook (optional, for experimentation)
+ipykernel==7.1.0
+ipython==9.8.0
+jupyter_client==8.7.0

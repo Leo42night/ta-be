@@ -1,0 +1,8 @@
+f97241701d1f7
+test TA-BE
+
+curl https://leoprangs.app.n8n.cloud/webhook-test/chat-llm -X POST -d { "message": "Jelaskan apa itu CRISP-DM", "context": { "user": "leo",
+    "source": "web",
+    "lang": "id"
+  }
+}
