@@ -1,2 +1,4 @@
 .venv
 api.txt
+mlruns
+**/__pycache__
