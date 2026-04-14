@@ -21,7 +21,6 @@ def create_lecturer(lecturer: LecturerCreate, db: Session = Depends(get_db)):
     db.refresh(lecturer)
     return lecturer
 
-
 @router.put("/{lecturer_id}", response_model=LecturerResponse)
 def update_lecturer(lecturer_id: int, lecturer_data: LecturerCreate, db: Session = Depends(get_db)):
     db_lecturer = db.query(Lecturer).filter(Lecturer.id == lecturer_id).first()
